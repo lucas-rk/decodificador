@@ -121,8 +121,9 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 2% 0%;
+    padding: 2%;
     margin-top: 15px ;
+    margin-botton: 0px;
     background:var(--corprincipal) ;
     color: var(--cortitulo);
 }
