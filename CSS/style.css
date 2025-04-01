@@ -125,7 +125,7 @@ body{
     margin-top: 15px ;
     background:var(--corprincipal) ;
     color: var(--cortitulo);
-    
+    bottom: 0;
 }
 
 .rodape h3{
