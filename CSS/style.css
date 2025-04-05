@@ -120,11 +120,12 @@ body{
 .rodape{
     display: flex;
     flex-direction: column;
-    flex-shrink: 0;
     align-items: center;
     padding: 2%;
     margin-top: 15px ;
-    margin-botton: 0px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
     background:var(--corprincipal) ;
     color: var(--cortitulo);
 }
