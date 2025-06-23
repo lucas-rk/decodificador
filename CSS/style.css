@@ -144,6 +144,51 @@ body{
     color: var(--corsegundaria);
 }
 
+@media (max-width: 1200px) {
+  .cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;         /* um pouco menos espaço que desktop */
+    padding: 30px 40px; /* espaçamento menor que desktop */
+  }
+
+  .cabecalho img {
+    width: 130px;      /* logo menor que desktop grande */
+    height: auto;
+  }
+
+  .cabecalho h1 {
+    font-size: 2rem;   /* título um pouco menor */
+    margin: 0;
+  }
+
+  .container-input {
+    gap: 30px;
+    padding: 15px 30px;
+  }
+
+  .buttons {
+    padding: 15px 30px;
+    margin-bottom: 80px;
+  }
+
+  .container-bnt {
+    gap: 12px;
+  }
+
+  .btn-criptografar,
+  .btn-descriptografar {
+    font-size: 17px;
+    padding: 14px 22px;
+  }
+
+  footer.rodape {
+    padding: 18px 30px;
+  }
+}
+
+
 @media (max-width: 768px) {
   .cabecalho {
     flex-direction: column;
