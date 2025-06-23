@@ -9,9 +9,8 @@ function btnCriptografar(){
   var resultCripto = texto.replace(/e/g, "enter").replace(/i/g, "imes").replace(/a/g, "ai").replace(/o/g, "ober").replace(/u/g, "ufat")
 
 
-  document.getElementById('output').innerHTML = 
-  '<textarea readonly id="resultado">' + resultCripto + '</textarea>' +
-  '<button class="btn-copiar" onclick="copiar()">Copiar</button>';
+  document.getElementById('output').innerHTML = '<textarea readonly id="input-texto">' + resultCripto + 
+  '</textarea>' + '<button class="btn-copiar" id="copiar" onclick="copiar()">Copiar</button>'
 
 }
 
