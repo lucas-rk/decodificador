@@ -162,3 +162,18 @@ body{
         width: auto;
     }
 }
+
+@media (max-width: 768px) {
+  .cabecalho {
+    padding: 8%;
+  }
+
+  .apresentacao {
+    flex-direction: column;
+    padding: 4%;
+  }
+
+  .apresentacao__conteudo {
+    width: 100%;
+  }
+}
