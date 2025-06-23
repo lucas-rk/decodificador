@@ -24,10 +24,9 @@ function btnDescriptografar(){
 }
 
 function copiar() {
-  const textoCop = document.getElementById("resultado");
+    var textoCop = document.getElementById('input-texto');
 
-  textoCop.select();
-  document.execCommand("copy");
-
-  alert("Texto copiado.");
-}
+    textoCop.select();
+    document.execCommand('copy');
+    // alert("Texto copiado.");
+}  
