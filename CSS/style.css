@@ -176,6 +176,7 @@ body{
   }
 
   .buttons {
+    margin-bottom: 100px;
     padding: 20px 0;
   }
 
@@ -196,5 +197,6 @@ body{
   footer.rodape {
     text-align: center;
     padding: 20px 0;
+    position: relative;
   }
 }
