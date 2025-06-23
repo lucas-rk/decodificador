@@ -176,20 +176,21 @@ body{
   }
 
   .buttons {
-    margin-bottom: 100px;
     padding: 20px 0;
+    margin-bottom: 100px; /* espaço para não ficar atrás do footer */
   }
 
   .container-bnt {
     display: flex;
-    flex-direction: column;
+    flex-direction: row; /* botões lado a lado */
     gap: 10px;
     width: 100%;
+    justify-content: center;
   }
 
   .btn-criptografar,
   .btn-descriptografar {
-    width: 100%;
+    flex: 1; /* largura igual */
     padding: 15px;
     font-size: 16px;
   }
@@ -197,6 +198,6 @@ body{
   footer.rodape {
     text-align: center;
     padding: 20px 0;
-    position: relative;
+    position: relative; /* para não cobrir conteúdo */
   }
 }
