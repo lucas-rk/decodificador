@@ -25,15 +25,10 @@ function btnDescriptografar(){
 
 
 function copiar() {
-  var textoCop = document.getElementById('resultado');
+    var textoCop = document.getElementById('input-texto');
 
-  // Seleciona o texto do resultado
-  textoCop.select();
-  textoCop.setSelectionRange(0, 99999); // Para celulares também
-
-  // Copia para a área de transferência
-  document.execCommand('copy');
-
-  alert("Texto copiado!");
-}
+    textoCop.select();
+    document.execCommand('copy');
+    // alert("Texto copiado.");
+}  
 
