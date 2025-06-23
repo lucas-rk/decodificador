@@ -146,20 +146,19 @@ body{
 
 @media (max-width: 768px) {
   .cabecalho {
+    flex-direction: column;
     text-align: center;
     padding: 20px 10px;
   }
 
   .cabecalho img {
     width: 80px;
-    height: auto;
   }
 
   .container-input {
-    display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 20px;
+    padding: 0 10px;
   }
 
   .input,
@@ -169,20 +168,18 @@ body{
   }
 
   textarea {
-    width: 100%;
     min-height: 150px;
     padding: 10px;
     font-size: 16px;
   }
 
   .buttons {
-    padding: 20px 0;
-    margin-bottom: 100px; /* espaço para não ficar atrás do footer */
+    padding: 20px 10px;
+    margin-bottom: 100px;
   }
 
   .container-bnt {
-    display: flex;
-    flex-direction: row; /* botões lado a lado */
+    flex-direction: row;
     gap: 10px;
     width: 100%;
     justify-content: center;
@@ -190,14 +187,12 @@ body{
 
   .btn-criptografar,
   .btn-descriptografar {
-    flex: 1; /* largura igual */
+    flex: 1;
     padding: 15px;
     font-size: 16px;
   }
 
   footer.rodape {
-    text-align: center;
-    padding: 20px 0;
-    position: relative; /* para não cobrir conteúdo */
+    padding: 15px 10px;
   }
 }
