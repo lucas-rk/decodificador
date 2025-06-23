@@ -143,3 +143,22 @@ body{
 .icons ion-icon:hover{
     color: var(--corsegundaria);
 }
+
+@media (max-width: 1200px) {
+    .cabecalho{
+        padding: 10%;
+    }
+
+    .cabecalho__menu{
+        justify-content: center;
+    }
+
+    .apresentacao{
+        padding: 5%;
+        flex-direction: column-reverse;
+    }
+
+    .apresentacao__conteudo{
+        width: auto;
+    }
+}
