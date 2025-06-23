@@ -24,9 +24,13 @@ function btnDescriptografar(){
 }
 
 function copiar() {
-    var textoCop = document.getElementById('input-texto');
+  const textoCop = document.querySelector('#output h2').innerText;
 
-    textoCop.select();
-    document.execCommand('copy');
-    // alert("Texto copiado.");
-}  
+  navigator.clipboard.writeText(textoCop)
+    .then(() => {
+      alert("Texto copiado.");
+    })
+    .catch(() => {
+      alert("Erro ao copiar o texto.");
+    });
+}
